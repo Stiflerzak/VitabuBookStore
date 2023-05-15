@@ -9,13 +9,18 @@ const BookList = () => {
 
   
   return (
+    <React.Fragment>
+    <h1>Vitabu BookStore</h1>
+    
     <section className="booklist">
       
-      {books.map((book, index) => {
-        return <Book {...book} key={book.id} number= {index}/>;
-      })}
-      
-    </section>
+    {books.map((book, index) => {
+      return <Book {...book} key={book.id} number= {index}/>;
+    })}
+    
+  </section>
+    </React.Fragment>
+    
   );
 };
 

@@ -62,3 +62,9 @@ body {
   background-color: #be5a83;
   color: white;
 }
+
+h1{
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
